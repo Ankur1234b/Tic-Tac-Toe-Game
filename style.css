@@ -1,0 +1,49 @@
+.container{
+    /* border:10px solid red; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    color:red;
+    background-color: white;
+    font-size: 40px;
+
+}
+.game{
+    /* border:10px solid blue; */
+    width:500px;
+    height: 500px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-align: center;
+    background-image:url(img/tic\ tak\ toe\ img.jpg);
+}
+#com2{
+    font-size: 30px;
+    color:brown
+    /* border-radius:50px; */
+
+}
+.hide{
+    display: none;
+}
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
